@@ -1,6 +1,7 @@
 # Vitenskapsfilosofi 
 
 ## Falsifikasjonisme
+
 Hva er Poppers falsifiserbarhetskriterium og hvilket spørsmål skal dette kriterium gi svar på? Hvorfor mener andre vitenskapsfilosofer (f.eks. Okasha) at vi ikke trenger å svare på dette spørsmålet? Hvem synes dere har rett?
 
 Poppers falsifiserbarhetskriterium handler enkelt forklart om hva han mente var en god vitenskapelig teori og hva som var en dårlig.

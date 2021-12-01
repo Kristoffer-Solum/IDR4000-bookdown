@@ -6,7 +6,7 @@
 ]{book}
 \title{A Minimal Book Example}
 \author{John Doe}
-\date{2021-11-30}
+\date{2021-12-01}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -89,19 +89,41 @@
 \hypertarget{arbeidskrav1}{%
 \chapter{Arbeidskrav1}\label{arbeidskrav1}}
 
-Placeholder
-
 \hypertarget{introduksjon}{%
 \section{Introduksjon}\label{introduksjon}}
+
+En av de mest sentrale faktorene for utholdenhets prestasjonen er det maksimale oksygenopptaket (VO2maks) \citet{bassett2000}. VO2maks er bestemt av flere sentrale faktorer: lungenes kapasitet til å føre oksygen fra blodet, hjertets pumpekapasitet, volum, og sammensetning av blodet, og musklenes evne til å bruke oksygenet \citet{bassett2000}.
+
+Reliabilitet kan bli definert som reproduserbarheten til testverdier, analyser eller andre målinger på gjentatte forsøk på de samme individene. Det finnes tre hoved variasjoner man må ta hensyn til når man snakker om reliabilitet, det er: deltakernes variasjon, endring i gjennomsnittet og rettest korrelasjon \citet{hopkins2000}. Deltakernes variasjon regnes ut gjennom standardavvik og standardfeil. Det kan komme fra biologiske forhold som kan variere mellom to tester. Utstyr kan og spille inn på dette, hvor det er støy ved målingene. Endring i gjennomsnitt kan man dele i to deler, det er tilfeldig endring og systematisk endring. Tilfeldig endring er støy i målinger og data innsamlingsfeil. Dette kan minimeres gjennom å ha mange tester, hvor da tilfeldige feilene vil spille mindre inn på resultatet. Systematisk endring er treningseffekten og læringseffekten man kan forvente mellom to tester, det handler om faktorene som spiller inn og kan gjøre test2, bedre enn test1. Korrelasjon i test2 handler om hvor godt test1 og test2 korrelerer, hvis man har bedre korrelasjon, har man og høyere reliabilitet mellom testene.
 
 \hypertarget{metode}{%
 \section{Metode}\label{metode}}
 
+I denne rapporten skal reliabiliteten estimeres mellom to VO2maks tester. Hvor test1 og test2 er gjennomført med en ukes mellomrom.
+
+VO2maks testen ble gjennomført med en standard VO2maks protokoll. Hvor stigningen var konstant, 10,5\% for guttene og 5,5\% for jentene. Startfart var gitt på forhånd hvor alle startet på 8 km/t. For hvert minutt som gikk, økte farten med 1 km/t, og slik fortsatte det til utmattelse. Underveis i testen ble det gitt verbal oppmuntring fra testleder, det var og testleder som justerte farten underveis. Testen ble gjennomført på en woodway løpemølle (4FRONT, wisconsin). Hele testen ble gjennomført med kontinuerlig oksygenmåling hvert 30. sekund. Oksygenmålingene ble gjennomført med en Vyntus CPX, mixing chamber (Vyntus CPX, Jaeger-CareFusion, UK). Ved målinger på Vyntus CPX ble det automatisk kalibrert for gass, volum og luftfuktighet før hver test. Oppvarmingen før testen var valgfri, og varte i 15 min. Underveis i oppvarmingen ble testprotokollen forklart for utøver, og eventuelle spørsmål om testen ble avklart. Under testen ble det registrert ml/min VO2. Umiddelbart etter testen ble det spurt om Borg skala 6-20 (RPE: \citet{borg1970} ), det ble og notert ned hva siste belastning var og hvor lenge utøver løp på denne belastningen. Et minutt etter testen ble det målt laktat (La) gjennom et fingerstikk og analysert gjennom Biosen blodlaktatmåler (Biosen C-line, EKF Diagnostics, Barleben, Germany), HF ble og notert ned.
+
+Test2 ble gjennomført på samme måte som test1, hvor samme protokoll ble gjennomført på nytt.
+
 \hypertarget{statistikk}{%
 \section{Statistikk}\label{statistikk}}
 
+Alle statistiske beregninger ble gjort i RStudio (versjon RStudio 1.4.1717; R Foundation for Statistics Computing, Vienna, AT). Det ble regnet ut gjennomsnitt og standardavvik mellom test1 og test2. Det ble også regnet ut standardfeil for testen som et mål på reliabilitet.
+
 \hypertarget{resultat-og-diskusjon}{%
 \section{Resultat og diskusjon}\label{resultat-og-diskusjon}}
+
+Resultatene for studien er vist i figur 1.
+
+Standardfeilen i studien var 4.04 \%.
+
+Standardaviket i studien var 229.82
+
+\begin{figure}
+\centering
+\includegraphics{_main_files/figure-latex/unnamed-chunk-2-1.pdf}
+\caption{\label{fig:unnamed-chunk-2}Figur 1 viser resultater fra test 1 og 2}
+\end{figure}
 
 \hypertarget{vitenskapsfilosofi}{%
 \chapter{Vitenskapsfilosofi}\label{vitenskapsfilosofi}}
@@ -131,11 +153,10 @@ Placeholder
 \hypertarget{analyzing-repeated-measures-experiments}{%
 \chapter{Analyzing repeated measures experiments}\label{analyzing-repeated-measures-experiments}}
 
+Placeholder
+
 \hypertarget{inntroduksjon-1}{%
 \section{Inntroduksjon}\label{inntroduksjon-1}}
-
-I denne oppgaven skal jeg analysere, diskutere og forske på artikler som undersøker effekten av styrketrening på muskelstyrke og muskelvekst.~~\\
-Forskning på styrketrening har vist det det forbedrer muskelstyrke, muskel masse, beintetthet og bindevevstykkelse \citep{kraemer2002a}. For å designe et treningsprogram for styrketrening krever det at man tar en del variabler til betraktning, dette inkluderer, treningsfrekvens, intensitet og volum av programmet \citep{hass2001a}. Innenfor forskningen på styrketrening er det stor forskjell hva er fokuset, og noe av det mest interessante er å se på forskjellen mellom antall sett, som har blitt gjort i flere studier \citep{krieger2010a}. Tidligere har det blitt argumentert for at ett sett (single- sett) per øvelse er alt som er nødvendig for hele populasjonen og at man ikke får større utbytte av flere sett \citep{carpinelli1998c}. Mens flere ander studier har argumentert for at det er et større utbytte av flere sett (multiple- sett) per øvelse \citet{galvão2005a}; \citet{humburg2007e}. Ettersom det er motstridende artikler innenfor dette området ønsker jeg i denne studien å undersøke om det er en større effekt i å trene multiple- sett mot single- sett når det kommer til utvikling av muskelstyrke og muskelvekst.
 
 \hypertarget{metode-2}{%
 \section{Metode}\label{metode-2}}
@@ -143,48 +164,20 @@ Forskning på styrketrening har vist det det forbedrer muskelstyrke, muskel mass
 \hypertarget{forsuxf8kspersoner}{%
 \subsection{Forsøkspersoner}\label{forsuxf8kspersoner}}
 
-I denne studien var det med 41 deltakere mellom 18 og 40, både kvinner og menn. Kvalifikasjonskriteriet var å ikke røyke, og andre ekstra kriterier var intoleranse til lokal bedøvelse, en treningshistorikk på mer enn en ukentlig styrketreningsøkt i løpet av de siste 12 måneder, nedsatt muskelstyrke på grunn av nåværende eller tidligere skade, og inntak av medisiner som kunne påvirke styrketreningen. 7 deltakere ble utelukket fra studien ettersom de ikke oppfylte kravet om å fullføre minst 85\% av de planlagte treningsøktene. På Baseline var det ingen signifikant forskjell mellom gruppene som kunne føre til fordeler/ ulemper i testen. Beinøvelser ble utført på ett og ett bein for å kunne tillate for individuelle forskjell i treningsvolum. For hver deltaker ble det randomisert tildelt styrkeøvelser av enten ett sett (single- sett) eller tre sett (multiple- sett) for hvert bein. Muskelstyrken ble målt ved baseline og etter treningsintervensjonen. Muskelbiosien ble målt fra begge bein (vastus lateralis) ved baseline og etter 12 uker med trening i uthvilt tilsand.
-
 \hypertarget{treningsprotokol}{%
 \subsection{Treningsprotokol}\label{treningsprotokol}}
-
-Før alle treningsøktene ble det utført en standardisert oppvarmingsrutine som inneholdt 5 min sykling og 10 repetisjoner med kroppsvekt av pushups, situps, rygghev og squats og 10 repetisjoner på 50\% av 1RM på hver øvelse de skal trene. Beinøvelsene ble utført i følgende rekkefølge: ettbeinsbeinpress, kne fleksjon og kneekstensjon utført som enten single- sett eller multiple- sett. Etter beinøvelsene utførte deltakerne to sett av bilatteral benkpress, nedtrekk og enten skulderpress eller sittende roing. Pausene mellom settene var på 90- 180 sekunder. Intensiteten på treningsøktene ble gradvis økt gjennom treningsperioden, deltakerne utførte 10RM de første 2 ukene, etterfulgt av 8RM i 3 uker og 7 uker med 7RM. Treningsøktene med maksimal innsats hadde minst 48t mellom og treningsøkter og submaksimale økter hadde 24t mellom. For å hjelpe med restitusjonen ble en standardisert drikke gitt etter hver øvelse.
-
-Maksimal styrke ble beskrevet som 1RM i ettbeinsbeinpress og kneekstensjon. Testen for hver øvelse startet med en standardisert spesifikk oppvarming før 1RM ble funnet ved å øke motstanden progressivt til deltakeren ikke lenger klarte å løfte vekten.
-
-Tverrsnittarealet til musklene i quadriceps (vastus lateralis, medialis, intermedius og rectus femoris) ble testet før og etter treningsperioden med MRI- scan. Kroppssammensetning ble bestemt før og etter treningsperioden ved bruk av en DXA- scan. Før MRI og DXA målingene måtte deltakerne være fastende i 2timer og måtte unngå hard fysisk aktivitet 48t før. ~
 
 \hypertarget{statestikk}{%
 \subsection{Statestikk}\label{statestikk}}
 
-All deskriptiv data er presentert som et gjennomsnitt av prosentvis ending med standardavvik ved mindre annet er oppgitt. p- verdier er regnet ut ved en ANCOVA modell, på endringsscoren fra post til pre. Statistiske tester ble utført i RStudio (versjon RStudio 1.4.1717; R Foundation for Statistics Computing, Vienna, AT)
-
 \hypertarget{resultater}{%
 \section{Resultater}\label{resultater}}
-
-Totalt, førte 12 uker med styrketrening til en signifikant økning i muskelstyrke på 31±14\% for multiple- sett og en økning på 25±13\% for multiple- sett (P\textless0,001). Økningen i muskelvekst var også signifikant på 3,3±4\% for multiple- sett og 2±4\% for single- sett (P\textless0,001).
-
-\begin{figure}
-\centering
-\includegraphics{_main_files/figure-latex/Prosentvis økning figur dexa-1.pdf}
-\caption{(\#fig:Prosentvis økning figur dexa)Figur 1 viser prosentvis økning ved multiple- sett og singe- sett}
-\end{figure}
-
-\includegraphics{_main_files/figure-latex/unnamed-chunk-4-1.pdf}
-
-\includegraphics{_main_files/figure-latex/Prosentvis økning figur styrke-1.pdf}
 
 \hypertarget{diskusjon}{%
 \section{Diskusjon}\label{diskusjon}}
 
-I denne studien viste det at multiple- sett styrketrening førte til bedre økning i muskelstyrke og muskelvekst enn single- sett trening. Dette resultatet stemmer overns med andre studier som har funnet at flere sett er bedre enn en \citep{galvão2005e, humburg2007c}.
-
-Likevel samsvarer ikke resultatet i denne studien med \citep{carpinelli1998d}. Der kom de frem til at det ikke var noen signifikant forskjell i størrelsen på styrke økningen mellom 1- sett og multiple sett. I studien til \citep{carpinelli1998b} så de på studien til \citep{reid1987a} som fant ut at den gjennomsnittlige økningen i styrke var på 17,7\% for single- sett gruppen og på 17,9\% multiple- sett. Sammenlignet med vårt resultat som var på henholdsvis 25\% og 31\% på single- sett og multiple- sett. Disse forskjellene i konklusjon kan muligens bli forklart av \citep{galvão2005d} konkluderer med at styrketrening med single- sett øvelser er nok til å signifikant øke muskel funksjon, selv om muskelstyrke vil bli bedre ved et høyere treningsvolum som multiple- sett gir.
-
 \hypertarget{konklusjon}{%
 \subsection{Konklusjon}\label{konklusjon}}
-
-Totalt sett viste denne studien at multiple- sett ga en bedre økning i muskelstyrke og muskelvekst sammenlignet med single- sett. Selv om begge gruppene hadde økning vil det kunne være mer hensiktsmessig å trene styrketrening med multiple- sett.
 
 \hypertarget{footnotes-and-citations}{%
 \chapter{Footnotes and citations}\label{footnotes-and-citations}}

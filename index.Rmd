@@ -1,4 +1,4 @@
---- 
+---
 title: "A Minimal Book Example"
 author: "John Doe"
 date: "`r Sys.Date()`"
@@ -19,7 +19,7 @@ github-repo: rstudio/bookdown-demo
 
 ## Introduksjon
 
-En av de mest sentrale faktorene for utholdenhets prestasjonen er det maksimale oksygenopptaket (VO2maks) @bassett2000 . VO2maks er bestemt av flere sentrale faktorer: lungenes kapasitet til å føre oksygen fra blodet, hjertets pumpekapasitet, volum, og sammensetning av blodet, og musklenes evne til å bruke oksygenet @bassett2000 .
+En av de mest sentrale faktorene for utholdenhets prestasjonen er det maksimale oksygenopptaket (VO2maks) @bassett2000. VO2maks er bestemt av flere sentrale faktorer: lungenes kapasitet til å føre oksygen fra blodet, hjertets pumpekapasitet, volum, og sammensetning av blodet, og musklenes evne til å bruke oksygenet @bassett2000.
 
 Reliabilitet kan bli definert som reproduserbarheten til testverdier, analyser eller andre målinger på gjentatte forsøk på de samme individene. Det finnes tre hoved variasjoner man må ta hensyn til når man snakker om reliabilitet, det er: deltakernes variasjon, endring i gjennomsnittet og rettest korrelasjon @hopkins2000. Deltakernes variasjon regnes ut gjennom standardavvik og standardfeil. Det kan komme fra biologiske forhold som kan variere mellom to tester. Utstyr kan og spille inn på dette, hvor det er støy ved målingene. Endring i gjennomsnitt kan man dele i to deler, det er tilfeldig endring og systematisk endring. Tilfeldig endring er støy i målinger og data innsamlingsfeil. Dette kan minimeres gjennom å ha mange tester, hvor da tilfeldige feilene vil spille mindre inn på resultatet. Systematisk endring er treningseffekten og læringseffekten man kan forvente mellom to tester, det handler om faktorene som spiller inn og kan gjøre test2, bedre enn test1. Korrelasjon i test2 handler om hvor godt test1 og test2 korrelerer, hvis man har bedre korrelasjon, har man og høyere reliabilitet mellom testene.
 
@@ -31,11 +31,9 @@ VO2maks testen ble gjennomført med en standard VO2maks protokoll. Hvor stigning
 
 Test2 ble gjennomført på samme måte som test1, hvor samme protokoll ble gjennomført på nytt.
 
-
 ## Statistikk
 
-Alle statistiske beregninger ble gjort i RStudio (versjon RStudio 1.4.1717; R Foundation for Statistics Computing, Vienna, AT). Det ble regnet ut gjennomsnitt og standardavvik mellom test1 og test2. Det ble også regnet ut standardfeil for testen som et mål på reliabilitet.  
-
+Alle statistiske beregninger ble gjort i RStudio (versjon RStudio 1.4.1717; R Foundation for Statistics Computing, Vienna, AT). Det ble regnet ut gjennomsnitt og standardavvik mellom test1 og test2. Det ble også regnet ut standardfeil for testen som et mål på reliabilitet.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(readxl)
@@ -61,7 +59,7 @@ Standardavik <- round(Dat$s, 2)
 
 ## Resultat og diskusjon
 
-Resultatene for studien er vist i figur 1. 
+Resultatene for studien er vist i figur 1.
 
 Standardfeilen i studien var `r cv` %.
 
@@ -84,13 +82,4 @@ ggplot(ark3, aes(tid, vo2)) + geom_boxplot() + geom_jitter() +
 labs(x = "Tidspunkt",
      y = "VO2 (ml/min)")
 
-```
-
-
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
 ```
