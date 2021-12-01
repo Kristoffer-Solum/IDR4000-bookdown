@@ -4,7 +4,14 @@
 %
 \documentclass[
 ]{book}
-\title{Mappeeksamen Kvantidativ metode og statestikk}
+\title{Mappeeksamen Kvantidativ metode og statestikk IDR4000}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{\url{https://github.com/Kristoffer-Solum/IDR4000-bookdown.git}}
 \author{Kristoffer Solum, Kandidatnummer:108}
 \date{2021-12-01}
 
@@ -40,7 +47,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Mappeeksamen Kvantidativ metode og statestikk},
+  pdftitle={Mappeeksamen Kvantidativ metode og statestikk IDR4000},
   pdfauthor={Kristoffer Solum, Kandidatnummer:108},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -176,7 +183,7 @@ Og i trinn fire ser man på om de empiriske konsekvensene viser seg å være rik
 Hvis jeg skal forklare HD- metoden ved et eget eksempel kan jeg stille et spørsmål som «hvordan kan vi vite at kyssesyken er et virus?»
 I trinn to, vil i så fall da kyssesyken (a) være smittsom, men (b) ikke bli kurert av antibiotika.
 I trinn tre, vil observasjoner og eksperimenter vise at kyssesyken både er (a) og (b).
-Derfor vil vi i trinn fire kunne få en induktiv bekreftelse på at kyssesyken er forsaket av et virus.
+Derfor vil vi i trinn fire kunne få en induktiv bekreftelse på at kyssesyken er forusaket av et virus.
 
 En annen form for vitenskapelig bekreftelse som er interessant å sammenligne med den hypotetiske deduktive metoden er bayesianisme.
 Bayesianisme er en metode som brukes for å øke tillitten til en teori eller hypotese ettersom mer informasjon og bevis blir tilgjengelige \citet{okasha2016}.

@@ -1,5 +1,6 @@
 ---
-title: "Mappeeksamen Kvantidativ metode og statestikk"
+title: "Mappeeksamen Kvantidativ metode og statestikk IDR4000"
+subtitle: "https://github.com/Kristoffer-Solum/IDR4000-bookdown.git" 
 author: "Kristoffer Solum, Kandidatnummer:108"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

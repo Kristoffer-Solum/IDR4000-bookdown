@@ -86,6 +86,7 @@ library(lmerTest)
 m0 <- lm(post ~ pre + sex + sets, data = dat) #gjør en analyse
 
 summary(m0)
+confint(m0)
 plot(m0)
 
 ```
@@ -93,7 +94,7 @@ plot(m0)
 
 
 
-```{r Prosentvis økning figur dexa, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap = "Figuren viser prosentvis økning i muskelvekst mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening (P- 0.193)"}
+```{r Prosentvis økning figur dexa, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap = "Figuren viser prosentvis økning i muskelvekst mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening"}
 
 dat.mean <- dat %>%
   group_by(sets) %>%
@@ -158,13 +159,14 @@ styrke1 %>%     # Regner ut gjennomsnittlig prosentvis økning per gruppe
 s0 <- lm(post ~ pre + sex + sets, data = styrke1) #Gjør analyse
 
 summary(s0)
+confint(s0)
 plot(s0)
 
 
 
 ```
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap= "Figuren viser økning i muskelstyrke mellom multiple- sett og singe- sett ved pretest og posttest etter 12 uker med styrketrening (P= 0.029, diff= -0.029)"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap= "Figuren viser økning i muskelstyrke mellom multiple- sett og singe- sett ved pretest og posttest etter 12 uker med styrketrening (diff= -0.029AU)"}
 strengthvolume %>%
   filter(exercise == "legext", time %in% c("pre", "post")) %>%
   group_by(sets, time) %>%
@@ -189,7 +191,7 @@ strengthvolume %>%
   theme(legend.position = c(0.1, 0.9))
 ```
 
-```{r Prosentvis økning figur styrke, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap= "Figuren viser prosentvis økning i muskelstyrke mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening (P- 0.029)"} 
+```{r Prosentvis økning figur styrke, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap= "Figuren viser prosentvis økning i muskelstyrke mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening"} 
 styrke.gjennomsnitt <- styrke1 %>%
   group_by(sets) %>%
   summarise(m = mean(prosentvis.endring, na.rm = TRUE),
