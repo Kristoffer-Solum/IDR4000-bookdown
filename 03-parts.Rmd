@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Analyzing repeated measures experiments
 
 ## Inntroduksjon
@@ -27,7 +32,7 @@ All deskriptiv data er presentert som et gjennomsnitt av prosentvis ending med s
 
 ## Resultater
 
-Totalt, førte 12 uker med styrketrening til en signifikant økning i muskelstyrke mellom gruppene på 31±14% for multiple- sett og en økning på 25±13% for multiple- sett (P\<0,001). Økningen i muskelvekst var også signifikant på 3,3±4% for multiple- sett og 2±4% for single- sett (P\<0,001).
+Totalt, førte 12 uker med styrketrening til en signifikant økning i muskelstyrke på 31±14% for multiple- sett og en økning på 25±13% for multiple- sett (P\<0,001) syrkeøningen mellom gruppene var signifikant på (P- 0.02988). Økningen i muskelvekst var også signifikant på 3,3±4% for multiple- sett og 2±4% for single- sett (P\<0,001) men her var det ikke signiffikant økning mellom gruppene (P- 0.193) .
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
