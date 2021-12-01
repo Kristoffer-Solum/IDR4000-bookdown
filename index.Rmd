@@ -63,7 +63,7 @@ Standardfeilen i studien var `r cv` %.
 
 Standardaviket i studien var `r Standardavik`
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results='hide', fig.cap= "Figur 1 viser resultater fra test 1 og 2"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results='hide', fig.cap= "Figuren viser resultater maksimalt oksygenopptak (VO2maks) test fra test 1 og 2"}
 
 
 library(tidyverse)
