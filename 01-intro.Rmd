@@ -1,8 +1,16 @@
-# Vitenskapsfilosofi 
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+# Vitenskapsfilosofi
 
 ## Falsifikasjonisme
 
-Hva er Poppers falsifiserbarhetskriterium og hvilket spørsmål skal dette kriterium gi svar på? Hvorfor mener andre vitenskapsfilosofer (f.eks. Okasha) at vi ikke trenger å svare på dette spørsmålet? Hvem synes dere har rett?
+Hva er Poppers falsifiserbarhetskriterium og hvilket spørsmål skal dette kriterium gi svar på?
+Hvorfor mener andre vitenskapsfilosofer (f.eks. Okasha) at vi ikke trenger å svare på dette spørsmålet?
+Hvem synes dere har rett?
 
 Poppers falsifiserbarhetskriterium handler enkelt forklart om hva han mente var en god vitenskapelig teori og hva som var en dårlig.
 I følge Popper ville det å si at noe var en god vitenskapelig teori bety at den var falsifiserbar @okasha2016.
@@ -31,7 +39,10 @@ Samtidig er det ikke helt riktig å dra all vitenskap som ikke kan falsifiseres 
 Så jeg syns det er vanskelig å gjøre meg opp en klar mening om hvem som har rett når jeg syns begge to har gode meninger.
 
 ## HD-metoden og abduksjon/Bayesisme
-Hva er strukturen på et bekreftende vitenskapelig argument ifølge den hypotetisk deduktive metode? Forklar ut fra Hempels artikkel men bruk egne eksempel. Sammenlign også Hempels HD-metode med hvordan vitenskapelig bekreftelse fungerer ifølge enten abduksjon eller Bayesianisme.
+
+Hva er strukturen på et bekreftende vitenskapelig argument ifølge den hypotetisk deduktive metode?
+Forklar ut fra Hempels artikkel men bruk egne eksempel.
+Sammenlign også Hempels HD-metode med hvordan vitenskapelig bekreftelse fungerer ifølge enten abduksjon eller Bayesianisme.
 
 Hypotetisk deduktiv metode, eller HD- metoden har en struktur som bekrefter vitenskapelige argumenter gjennom å få positive resultater når man tester de deduktive konsekvensene av teorien @hempel1966.
 Strukturen til HD- metoden er beskrevet av Hempel @hempel1966, det første trinnet i HD- metodens strukturen er en «utdannet gjetning», her blir det formulert en hypotese eller teori.
@@ -59,7 +70,11 @@ Begge metodene tar også en bekreftelse ut fra resultatene de kommer frem til, m
 I HD- metoden blir da eksperimentene og forskningen testet for å bekrefte eller motbevise dette, mens i bayesismen vil da teorien til forskerne kunne endres mye underveis ettersom hvilke resultater de kommer frem til.
 
 ## Replikasjonskrisen
-Hva mener Alexander Bird er forklaringen til at mange resultat i noen vitenskaper ikke repliseres? Oppsummere Birds argument for dette. Sammenlign også Birds forklaring med noen av de andre forklaringene som Bird diskuterer i seksjon 4. Har Bird rett i at hans forklaring er bedre?
+
+Hva mener Alexander Bird er forklaringen til at mange resultat i noen vitenskaper ikke repliseres?
+Oppsummere Birds argument for dette.
+Sammenlign også Birds forklaring med noen av de andre forklaringene som Bird diskuterer i seksjon 4.
+Har Bird rett i at hans forklaring er bedre?
 
 Begrepet replikasjonskrisen er brukt til å beskrive både at det er enormt mange felt av studier det ikke er mulig å replisere, og at disse feltene står ovenfor en krise som en konsekvens av dette @bird2020.
 Ut av 1576 forskere i en undersøkelse mener hele 52% at det er en signifikant krise når det kommer til replikasjon @baker2016 .
@@ -83,4 +98,3 @@ Basert det man har sett av studier er det vanskelig å gi en fast konklusjon men
 Derfor vil det ikke være gode nok argumenter til å mene at en dårlig moral innenfor vitenskapen kan forklare hele krisen @bird2020.
 Slik jeg tolker det er det ganske tydelig at Bird mener hans egne argumenter og forklaring gir mest styrke til teorien om replikasjonskrisen.
 Og en større forståelse av statistikk og sannsynlighet vil være viktig for alle som driver med vitenskap @bird2020.
-

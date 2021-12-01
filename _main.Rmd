@@ -81,3 +81,95 @@ labs(x = "Tidspunkt",
      y = "VO2 (ml/min)")
 
 ```
+
+<!--chapter:end:index.Rmd-->
+
+
+# Vitenskapsfilosofi
+
+Placeholder
+
+
+## Falsifikasjonisme
+## HD-metoden og abduksjon/Bayesisme
+## Replikasjonskrisen
+
+<!--chapter:end:01-intro.Rmd-->
+
+
+# Study-Design
+
+Placeholder
+
+
+## Inntroduksjon
+## Metode
+
+<!--chapter:end:02-cross-refs.Rmd-->
+
+
+# Analyzing repeated measures experiments
+
+Placeholder
+
+
+## Inntroduksjon
+## Metode
+### Forsøkspersoner
+### Treningsprotokol
+### Statestikk
+## Resultater
+## Diskusjon
+### Konklusjon
+
+<!--chapter:end:03-parts.Rmd-->
+
+# Footnotes and citations 
+
+## Footnotes
+
+Footnotes are put inside the square brackets after a caret `^[]`. Like this one ^[This is a footnote.]. 
+
+## Citations
+
+
+Reference items in your bibliography file(s) using `@key`.
+
+For example, we are using the **bookdown** package [@R-bookdown] (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and **knitr** [@xie2015] (this citation was added manually in an external file book.bib). 
+Note that the `.bib` files need to be listed in the index.Rmd with the YAML `bibliography` key.
+
+
+The RStudio Visual Markdown Editor can also make it easier to insert citations: <https://rstudio.github.io/visual-markdown-editing/#/citations>
+
+<!--chapter:end:04-citations.Rmd-->
+
+
+# Blocks
+
+Placeholder
+
+
+## Equations
+## Theorems and proofs
+## Callout blocks
+
+<!--chapter:end:05-blocks.Rmd-->
+
+
+# Sharing your book
+
+Placeholder
+
+
+## Publishing
+## 404 pages
+## Metadata for sharing
+
+<!--chapter:end:06-share.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:07-references.Rmd-->
+
