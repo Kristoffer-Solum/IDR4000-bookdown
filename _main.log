@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.12.1)  1 DEC 2021 10:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.12.1)  1 DEC 2021 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,8 +380,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip63
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count312
-)
-No file _main.aux.
+) (./_main.aux)
 \openout1 = `_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -649,11 +648,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 82.
 LaTeX Info: Redefining \pageref on input line 82.
 LaTeX Info: Redefining \nameref on input line 82.
+(./_main.out) (./_main.out)
 \@outlinefile=\write3
 \openout3 = `_main.out'.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 84.
@@ -689,27 +686,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2
 
-]
+] (./_main.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 2.
+[3])
 \tf@toc=\write4
 \openout4 = `_main.toc'.
 
-[3] [4
+[4]
+Chapter 1.
+[5
 
 ]
-Chapter 1.
-
-Package natbib Warning: Citation `bassett2000' on page 5 undefined on input line 95.
-
-
-Package natbib Warning: Citation `bassett2000' on page 5 undefined on input line 95.
-
-
-Package natbib Warning: Citation `hopkins2000' on page 5 undefined on input line 97.
-
-
-Package natbib Warning: Citation `borg1970' on page 5 undefined on input line 104.
-
-[5]
 File: _main_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use _main_files/figure-latex/unnamed-chunk-2-1.pdf>
 [6] [7] [8
@@ -728,27 +730,8 @@ Chapter 4.
 
 ]
 Chapter 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 188.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 188.
 
 Package natbib Warning: Citation `R-bookdown' on page 15 undefined on input line 195.
-
-
-Package natbib Warning: Citation `xie2015' on page 15 undefined on input line 195.
 
 [15] [16
 
@@ -758,30 +741,43 @@ Chapter 6.
 
 ]
 Chapter 7.
-No file _main.bbl.
+(./_main.bbl [19] [20
+
+]
+Underfull \hbox (badness 1997) in paragraph at lines 9--16
+[]\TU/lmr/m/n/10 David R. Jr Edward T. Howley Bassett.  Limiting factors for max-
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 9--16
+\TU/lmr/m/n/10 imum oxygen uptake and determinants of endurance performance.
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 9--16
+\TU/lmr/m/it/10 Medicine Science in Sports Exercise\TU/lmr/m/n/10 , 32(1):70, 01 2000.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--16
+[]$[][][][][] [] [] [] [][][][][][][][] [] [][][] [] [][][] [] [][][][] [][] [][][][] [] [][][][][][][][] [] [][][][] [] [][][][][] [] [][][][][][][][] []
+ []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-[19] (./_main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `_main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B31168FF5FA39B04A71171D12A3E9861;3505.
+[21] (./_main.aux)
+Package rerunfilecheck Info: File `_main.out' has not changed.
+(rerunfilecheck)             Checksum: B31168FF5FA39B04A71171D12A3E9861;3505.
  ) 
 Here is how much of TeX's memory you used:
- 16899 strings out of 478256
- 312614 string characters out of 5853879
- 753592 words of memory out of 5000000
- 37213 multiletter control sequences out of 15000+600000
- 409905 words of font info for 83 fonts, out of 8000000 for 9000
+ 16935 strings out of 478256
+ 313111 string characters out of 5853879
+ 756249 words of memory out of 5000000
+ 37237 multiletter control sequences out of 15000+600000
+ 409913 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,8n,121p,1376b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,8n,121p,1367b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _main.pdf (19 pages).
+Output written on _main.pdf (21 pages).
