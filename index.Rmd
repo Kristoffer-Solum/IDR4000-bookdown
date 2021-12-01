@@ -1,6 +1,6 @@
 ---
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Mappeeksamen Kvantidativ metode og statestikk"
+author: "Kristoffer Solum, Kandidatnummer:108"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -78,6 +78,7 @@ ark3
 # Lager boxplot per gruppe
 ggplot(ark3, aes(tid, vo2)) + geom_boxplot() + geom_jitter() +
 labs(x = "Tidspunkt",
-     y = "VO2 (ml/min)")
+     y = "VO2 (ml/min)") +
+  theme_classic() 
 
 ```

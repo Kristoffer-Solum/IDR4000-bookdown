@@ -93,7 +93,7 @@ plot(m0)
 
 
 
-```{r Prosentvis økning figur dexa, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", fig.cap = "Figuren viser prosentvis økning i muskelvekst mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening (P- 0.193)"}
+```{r Prosentvis økning figur dexa, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap = "Figuren viser prosentvis økning i muskelvekst mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening (P- 0.193)"}
 
 dat.mean <- dat %>%
   group_by(sets) %>%
@@ -106,7 +106,8 @@ dat.mean %>%
 ggplot(aes(sets, m)) + geom_point() + geom_line() + geom_errorbar(aes(ymax = m + sd, ymin = m - sd, width = 0.2), color = "red") + geom_line(data = dat, aes(sets, prosentvis.endring, group = participant), alpha = 2, color = "blue") +
 
 labs(x = "Gruppe",
-     y = "Prosentvis endring")
+     y = "Prosentvis endring") +
+  theme_classic() 
 ```
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE, results="hide", fig.cap = "Figur 1 viser økningen i muskelvekst fra pre- post for alle forsøkspersoner skildt ved single- sett og multiple- sett"}
@@ -163,7 +164,7 @@ plot(s0)
 
 ```
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", fig.cap= "Figuren viser økning i muskelstyrke mellom multiple- sett og singe- sett ved pretest og posttest etter 12 uker med styrketrening (P= 0.029, diff= -0.029)"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap= "Figuren viser økning i muskelstyrke mellom multiple- sett og singe- sett ved pretest og posttest etter 12 uker med styrketrening (P= 0.029, diff= -0.029)"}
 strengthvolume %>%
   filter(exercise == "legext", time %in% c("pre", "post")) %>%
   group_by(sets, time) %>%
@@ -181,13 +182,14 @@ strengthvolume %>%
   labs(x = "Time-point", 
        y = "Average load (kg)", 
        color = "Sets") +
+  theme_classic() +
   
-  theme_bw() + 
+  
   
   theme(legend.position = c(0.1, 0.9))
 ```
 
-```{r Prosentvis økning figur styrke, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", fig.cap= "Figuren viser prosentvis økning i muskelstyrke mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening (P- 0.029)"} 
+```{r Prosentvis økning figur styrke, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE, results="hide", out.width="120%", fig.cap= "Figuren viser prosentvis økning i muskelstyrke mellom multiple- sett og singe- sett ved posttest etter 12 uker med styrketrening (P- 0.029)"} 
 styrke.gjennomsnitt <- styrke1 %>%
   group_by(sets) %>%
   summarise(m = mean(prosentvis.endring, na.rm = TRUE),
@@ -199,7 +201,8 @@ styrke.gjennomsnitt %>%
 ggplot(aes(sets, m)) + geom_point() + geom_line() + geom_errorbar(aes(ymax = m + sd, ymin = m - sd, width = 0.2), color = "black") + geom_line(data = styrke1, aes(sets, prosentvis.endring, group = participant), alpha = 2, color = "green") +
 
 labs(x = "Gruppe",
-     y = "Prosentvis endring")
+     y = "Prosentvis endring") +
+  theme_classic() 
   
   
 
