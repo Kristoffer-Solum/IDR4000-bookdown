@@ -14,7 +14,7 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# Arbeidskrav1 Relabilitet
+# Arbeidskrav1 Reliabilitet
 
 ## Introduksjon
 

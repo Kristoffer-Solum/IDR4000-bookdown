@@ -1,5 +1,5 @@
 delete_merged_file: true
-rmd_files: ["index.Rmd", "01-arb1.Rmd", "02-cross-refs.Rmd", "03-parts.Rmd", "04-citations.Rmd"]
+rmd_files: ["index.Rmd", "01-vitenskapsfilosofi.Rmd", "02-study-design.Rmd", "03-arb5.Rmd", "04-labb-rapport.Rmd"]
 language:
   ui:
     chapter_name: "Chapter "
